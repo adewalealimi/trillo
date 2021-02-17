@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+ 
+
+     @media only screen and (max-width: $bp-medium) {
+       flex-direction: column;
+     }
+    }
+
+    .hotel-view {
+        background-color: #fff;
+      
+        
+        //height: 80rem;
+        flex: 1;
+    }
+
+    .gallery {
+        display:flex;
+        // display: flex;
+        
+
+        &__photo {
+            width: 100%;
+            //width: 33.3333%;
+            display: block;
+        }
+    }
